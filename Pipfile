@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ariadne-django = "==0.3.0"
+django = "==3.2.7"
+python-dateutil = "2.8.2"
+
+[dev-packages]
+flake8 = "==4.0.1"
+flake8-class-attributes-order = "==0.1.2"
+ipython = "==8.0.1"
+pep8 = "==1.7.1"
+pydocstyle = "==6.1.1"
+
+[requires]
+python_version = "3.8"

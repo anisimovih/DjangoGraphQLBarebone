@@ -1,0 +1,9 @@
+.idea
+db.sqlite3
+__pycache__
+GraphQLBarebone/settings/local_*.py
+GraphQLBarebone/logs/*
+.venv*/*
+.env.local*
+.DS_Store
+

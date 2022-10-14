@@ -1,0 +1,12 @@
+scalar DateTime
+scalar Date
+
+type Query {
+    users(id: Int, username: String, email: String, firstName: String, lastName: String, dateJoined: DateTime): [User]!
+    messages(id: Int, text: String, sender_id: Int, recipient_id: Int): [Message]!
+}
+
+type Mutation {
+    createUser(email: String!, username: String!, first_name: String, last_name: String): User!
+    createMessage(text: String!, sender_id: Int!, recipient_id: Int): Message!
+}
